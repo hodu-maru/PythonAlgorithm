@@ -1,6 +1,6 @@
 def squarePair(num):
     for root in range(num + 1):
-        for pwr in range(1,6):
+        for pwr in range(2,6):
             if num == root ** pwr:
                 print(f'{root}**{pwr}={num}')
                 return
